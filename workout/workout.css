@@ -1,0 +1,68 @@
+/* Style the button that opens and closes the collapsible content */
+.collapsible {
+    background-color: #333; /* Darker background color */
+    color: white; /* White text color */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #333; /* Darker background color */
+    color: white; /* White text color */
+  }
+  
+  /* Style the button that is used to open and close the collapsible content */
+  .active, .collapsible:hover {
+    background-color: #555; /* Slightly lighter background color on hover or when active */
+  }
+  
+  /* Center the text */
+  .center {
+    text-align: center;
+  }
+  
+  /* Add space between list items */
+  .content li {
+    margin-bottom: 10px; /* Adjust the value to increase or decrease the space */
+  }
+  
+  /* Add styles to position the exercise content */
+.exercise-list {
+    float: left;
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .exercise-content {
+    float: right;
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .exercise {
+    padding: 20px;
+  }
+  
+  .exercise video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Clear the float */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  a {
+      text-decoration: none;
+      font-size: large;
+      color: white;
+  }

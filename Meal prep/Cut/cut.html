@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cut.css" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- card 1 -->
+      <div class="card" id="card3">
+        <div class="imgBox">
+          <img src="/Meal prep/res/rice.jpg" alt="Salmon" class="mouse" />
+        </div>
+        <div class="contentBox">
+          <h3>Rice</h3>
+          <p>
+            One cup of cooked white rice provides 242 calories, 4.4g protein,
+            53.2g carbs, low in fat and cholesterol-free
+            <span id="shortenedParagraph"></span>
+          </p>
+          <p id="fullParagraph" style="display: none">
+            Salmon is a fatty fish, meaning it is full of omega-3 fatty acids.
+            Salmon is also an excellent source of protein and can help a person
+            feel more satisfied at meals. One salmon fillet (178 g) contains
+            39.3 g of proteinTrusted Source.
+          </p>
+          <a href="#" class="learn-more" onclick="toggleParagraph()"
+            >Learn More</a
+          >
+          <a
+            href="#"
+            class="learn-less"
+            onclick="toggleParagraph()"
+            style="display: none"
+            >Learn Less</a
+          >
+          <a href="calculator/index.html" class="buy">Buy</a>
+        </div>
+      </div>
+      <!-- Repeat for other cards -->
+      <div class="card" id="card3">
+        <div class="imgBox">
+          <img
+            src="/Meal prep/res/homemade-nut-butter-RU355222-cc1a5d33609d41eda5e3e12f3531cd1e.jpg"
+            alt="Salmon"
+            class="mouse"
+          />
+        </div>
+        <div class="contentBox">
+          <h3>chicken breast</h3>
+          <p>
+            Just one small handful of raw almonds (1/4 cup or about 32 g)
+            contains 170 calories, 6 g of protein, and 15 g of fats
+            <span id="shortenedParagraph"></span>
+          </p>
+          <p id="fullParagraph" style="display: none">
+            That means that approximately 80% of the calories in chicken breast
+            come from protein, and 20% come from fat. Remember that these
+            amounts refer to a plain chicken breast with no added ingredients.
+          </p>
+          <a href="#" class="learn-more" onclick="toggleParagraph()"
+            >Learn More</a
+          >
+          <a
+            href="#"
+            class="learn-less"
+            onclick="toggleParagraph()"
+            style="display: none"
+            >Learn Less</a
+          >
+          <a href="calculator/index.html" class="buy">Buy</a>
+        </div>
+      </div>
+
+      <div class="card" id="card3">
+        <div class="imgBox">
+          <img src="/Meal prep/res/potato.jpg" alt="Salmon" class="mouse" />
+        </div>
+        <div class="contentBox">
+          <h3>Salmon</h3>
+          <p>
+            A medium-sized baked potato contains approximately 161 calories,
+            36.6 grams of carbohydrates, and 4.3 grams of protein.
+            <span id="shortenedParagraph"></span>
+          </p>
+          <p id="fullParagraph" style="display: none">
+            It also provides 12% of the recommended daily intake of iron, as
+            well as phosphorus, Vitamin B3, Vitamin B6, Vitamin B12, and zinc.
+            It's important to limit your portion size to four ounces or less due
+            to the health risks associated with red meat.
+          </p>
+          <a href="#" class="learn-more" onclick="toggleParagraph()"
+            >Learn More</a
+          >
+          <a
+            href="#"
+            class="learn-less"
+            onclick="toggleParagraph()"
+            style="display: none"
+            >Learn Less</a
+          >
+          <a href="calculator/index.html" class="buy">Buy</a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="workout.css" />
+  </head>
+  <body>
+    <button class="collapsible">Chest Day</button>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#" onclick="showExercise('Bench', 'exercise-content-1')"
+            >Flat Bench Press</a
+          >
+        </li>
+        <li>
+          <a onclick="showExercise('incline', 'exercise-content-1')" href="#"
+            >Incline Dumbbell Press</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('flyes', 'exercise-content-1')"
+            >Chest Flyes</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('push', 'exercise-content-1')"
+            >Push-ups</a
+          >
+        </li>
+      </ul>
+      <div id="exercise-content-1" class="exercise-content"></div>
+    </div>
+
+    <button class="collapsible">Back Day</button>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#" onclick="showExercise('pull', 'exercise-content-2')"
+            >Pull-ups</a
+          >
+        </li>
+        <li>
+          <a onclick="showExercise('dead', 'exercise-content-2')" href="#"
+            >Barbell Deadlifts</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('row', 'exercise-content-2')"
+            >Bent-over Barbell Rows</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('cable', 'exercise-content-2')"
+            >Seated Cable Rows</a
+          >
+        </li>
+      </ul>
+      <div id="exercise-content-2" class="exercise-content"></div>
+    </div>
+
+    <button class="collapsible">Shoulder Day</button>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#" onclick="showExercise('press', 'exercise-content-3')"
+            >Shoulder Press</a
+          >
+        </li>
+        <li>
+          <a onclick="showExercise('raises', 'exercise-content-3')" href="#"
+            >Lateral Raises</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('front', 'exercise-content-3')"
+            >Front Raises</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('upright', 'exercise-content-3')"
+            >Upright Rows</a
+          >
+        </li>
+      </ul>
+      <div id="exercise-content-3" class="exercise-content"></div>
+    </div>
+
+    <button class="collapsible">Leg Day</button>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#" onclick="showExercise('squat', 'exercise-content-4')"
+            >Squats</a
+          >
+        </li>
+        <li>
+          <a onclick="showExercise('lunges', 'exercise-content-4')" href="#"
+            >Lunges</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('legpress', 'exercise-content-4')"
+            >Leg Press
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('legcurl', 'exercise-content-4')"
+            >Leg curl</a
+          >
+        </li>
+      </ul>
+      <div id="exercise-content-4" class="exercise-content"></div>
+    </div>
+
+    <button class="collapsible">Arm Day</button>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#" onclick="showExercise('curls', 'exercise-content-5')"
+            >Bicep Curls</a
+          >
+        </li>
+        <li>
+          <a onclick="showExercise('dips', 'exercise-content-5')" href="#"
+            >Tricep Dips</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('tri', 'exercise-content-5')"
+            >Tricep Extensions</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="showExercise('hammer', 'exercise-content-5')"
+            >Hammer Curls</a
+          >
+        </li>
+      </ul>
+      <div id="exercise-content-5" class="exercise-content"></div>
+    </div>
+
+    <script src="workout.js"></script>
+  </body>
+</html>
